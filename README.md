@@ -2,7 +2,7 @@
  This repository is used to save data in cache file using redis driver provided by Codeigniter framework. For using this, we will fetch the data from cache. If there is no cache file for any data then after call model for fetching the data from database and save that data in cache.
 	
 # Steps
-1. refer the test file located in controller folder.
+1. Refer the test file located in controller folder:
 				- In constructor function, load the model and driver.
 				- In cache function, set the key with the data whatever we want to save if that key is not already saved.
 						After set the key, one cache file for that particular key is generated.
